@@ -6,8 +6,11 @@
 
 ## Format
 
-The current text is directly exported from mdx files, and processed by replacing undocumented syntax with html. Still, the content and its styling and other unrelated stuff are interweaved. This issue will be left as is until I decide to get a new format, open dictionary format or something.
+All data from mdx files are extracted and stored into yaml. Currently there are a lot of errors in it. Yaml was chosen for its readability, and because the form of dictionary content often varies. Later the data could be stored in bson and indexed by nosql for application uses. 
 
-[Proposed readable format for editing](./dict.yaml)
+List of dictionaries (by priority):
 
-And it will get serialized when preparing for software releases. Then redictionary would load it into memory, searching it with a nodejs fulltext engine or simply regex.
+- [x] 简明英汉汉英词典（Chinese-English）
+- [ ] 21世紀電腦英漢漢英雙向辭典
+- [ ] 汉语大词典(简体精排)（Chinese+Literary Chinese）
+- [ ] 柯林斯COBUILD高阶英汉双解学习词典
