@@ -11,6 +11,15 @@ All data from mdx files are extracted and stored into yaml. Currently there are 
 List of dictionaries (by priority):
 
 - [x] 简明英汉汉英词典（Chinese-English）
-- [ ] 21世紀電腦英漢漢英雙向辭典
+- [x] 21世紀電腦英漢漢英雙向辭典
 - [ ] 汉语大词典(简体精排)（Chinese+Literary Chinese）
 - [ ] 柯林斯COBUILD高阶英汉双解学习词典
+
+## From
+
+Run this at the root directory of repo redictionary
+
+```bash
+node cli-utility --export -f static/简明英汉汉英词典.mdx -d ../OpenMdicts  
+node cli-utility --export -f static/21世紀電腦英漢漢英雙向辭典.mdx -d ../OpenMdicts
+```
