@@ -1,8 +1,6 @@
 # OpenMdicts
 
-词典数据全部提取到可读格式，便于编辑。为redictionary的开发作一些基础。
-
-> Work in progress
+词典数据全部提取到可读格式，yaml，便于编辑。为redictionary的开发作一些基础。
 
 ## Format
 
@@ -16,8 +14,6 @@ List of dictionaries (by priority):
 - [x] 柯林斯COBUILD高阶英汉双解学习词典
 
 ## From
-
-Run this at the root directory of repo redictionary
 
 ```bash
 node cli-utility --export -f static/简明英汉汉英词典.mdx -d ../OpenMdicts  
